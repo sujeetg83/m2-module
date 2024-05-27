@@ -2,7 +2,7 @@
     "name": "gyanmatrix/module-blog",
     "description": "A basic Magento 2 module with a controller",
     "type": "magento2-module",
-    "version": "2.0.1",
+    "version": "2.0.0",
     "license": [
       "OSL-3.0",
       "AFL-3.0"
