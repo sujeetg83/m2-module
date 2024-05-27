@@ -1,36 +1,22 @@
 {
     "name": "gyanmatrix/module-blog",
-    "description": "My awesome example extension",
-    "minimum-stability": "dev",
-    "prefer-stable"  : true,
-    "require": {
-        "magento/magento-composer-installer": "*"
-    },
+    "description": "A basic Magento 2 module with a controller",
     "type": "magento2-module",
-    "version": "2.0.0",
-    "extra": {
-        "map": [
-            [
-                "*",
-                "Gyanmatrix/Blog"
-            ]
-        ]
-    },
-    "autoload": {
-        "files": [ "registration.php" ],
-        "psr-4": {
-          "Gyanmatrix\\Blog\\": ""
-        }
-    },
-    "repositories": [
-        {
-          "type": "path",
-          "url": "https://github.com/sujeetg83/m2-module"
-        }
+    "version": "2.0.1",
+    "license": [
+      "OSL-3.0",
+      "AFL-3.0"
     ],
-    "config": {
-        "allow-plugins": {
-            "magento/magento-composer-installer": true
-        }
+    "require": {
+      "php": "~5.5.0|~5.6.0|~7.0",
+      "magento/magento-composer-installer": "*"
+    },
+    "extra": {
+      "map": [
+        [
+          "*",
+          "Gyanmatrix/Blog"
+        ]
+      ]
     }
-}
+  }
