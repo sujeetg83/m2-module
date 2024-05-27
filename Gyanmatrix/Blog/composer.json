@@ -2,6 +2,7 @@
     "name": "gyanmatrix/module-blog",
     "description": "My awesome example extension",
     "minimum-stability": "dev",
+    "prefer-stable"  : true,
     "require": {
         "magento/magento-composer-installer": "*"
     },
