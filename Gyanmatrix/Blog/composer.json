@@ -1,0 +1,35 @@
+{
+    "name": "gyanmatrix/module-blog",
+    "description": "My awesome example extension",
+    "minimum-stability": "dev",
+    "require": {
+        "magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-module",
+    "version": "2.0.0",
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Gyanmatrix/Blog"
+            ]
+        ]
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+          "Gyanmatrix\\Blog\\": ""
+        }
+    },
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/sujeetg83/m2-module"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "magento/magento-composer-installer": true
+        }
+    }
+}
