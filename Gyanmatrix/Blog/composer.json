@@ -1,22 +1,21 @@
 {
-    "name": "gyanmatrix/module-blog",
-    "description": "A basic Magento 2 module with a controller",
-    "type": "magento2-module",
-    "version": "2.0.0",
-    "license": [
-      "OSL-3.0",
-      "AFL-3.0"
+  "name": "gyanmatrix/blog",
+  "description": "Magento 2 extension",
+  "require": {
+    "php": "^8.0",
+    "magento/module-review" : ">100.1.2"
+  },
+  "type":"magento2-module",
+  "version": "1.0.7",
+  "license":[
+    "proprietary"
+  ],
+  "autoload":{
+    "files": [
+      "registration.php"
     ],
-    "require": {
-      "php": "~5.5.0|~5.6.0|~7.0",
-      "magento/magento-composer-installer": "*"
-    },
-    "extra": {
-      "map": [
-        [
-          "*",
-          "Gyanmatrix/Blog"
-        ]
-      ]
+    "psr-4": {
+      "Gyanmatrix\\Blog\\" : ""
     }
   }
+}
