@@ -1,21 +1,29 @@
 {
   "name": "gyanmatrix/blog",
-  "description": "Magento 2 extension.",
+  "description": "Magento 2 extension for the custom blog",
+  "keywords": [
+    "magento 2",
+    "magento",
+    "magento 2 extension",
+    "magento 2 extension free"
+  ],
   "require": {
     "php": "^8.0",
-    "magento/module-review" : ">100.1.2"
+    "magento/framework": "100.0.*|100.1.*|101.0.*|102.0.*"
   },
+
   "type":"magento2-module",
-  "version": "1.0.7",
-  "license":[
-    "proprietary"
+  "version": "2.1.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
   ],
   "autoload":{
     "files": [
       "registration.php"
     ],
     "psr-4": {
-      "Gyanmatrix\\Blog\\" : ""
+      "Gyanmatrix\\Blog\\":""
     }
   },
   "repositories": {
