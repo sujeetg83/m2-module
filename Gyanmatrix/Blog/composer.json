@@ -1,6 +1,6 @@
 {
   "name": "gyanmatrix/blog",
-  "description": "Magento 2 extension",
+  "description": "Magento 2 extension.",
   "require": {
     "php": "^8.0",
     "magento/module-review" : ">100.1.2"
@@ -16,6 +16,15 @@
     ],
     "psr-4": {
       "Gyanmatrix\\Blog\\" : ""
+    }
+  },
+  "repositories": {
+    "main": {
+        "type": "composer",
+        "url": "https://github.com/sujeetg83/m2-module/tree/main",
+        "require":{
+            "composer/installers": "~2.0"
+        }
     }
   }
 }
